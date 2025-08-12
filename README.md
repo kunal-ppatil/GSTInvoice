@@ -29,9 +29,6 @@
 - **📈 Performance Metrics**: Real-time confidence scores and quality assessments
 - **🎨 Categorized Results**: Organized display of invoice metadata, business info, and tax details
 
-## 🎬 Demo
-
-![InvoiScope Interface](assets/demo-screenshot.png)
 
 ### Key Capabilities:
 - Upload GST invoice images (JPG, PNG, JPEG)
@@ -107,7 +104,7 @@ streamlit run app.py
 The application will be available at: **http://localhost:8501**
 
 ### Basic Workflow
-1. **� Uplload Invoice**: 
+1. **📤 Upload Invoice**: 
    - Drag and drop or click to select a GST invoice image
    - Supported formats: JPG, PNG, JPEG (max 10MB)
 
@@ -125,7 +122,8 @@ The application will be available at: **http://localhost:8501**
    - Check annotated image with bounding boxes
    - Review confidence scores and quality metrics
 
-5. **� Export Data**:
+5. **📥 Export Data**:
+
    - Download results as CSV for spreadsheet analysis
    - Download as JSON for programmatic use
    - Files include timestamps for organization
@@ -159,7 +157,7 @@ OCR_CONFIGS = {
 ## 📁 Project Structure
 
 ```
-invoiscope/
+Invoiscope/
 ├── 📁 .streamlit/              # Streamlit configuration
 │   └── config.toml             # App settings and themes
 ├── 📁 assets/                  # Static assets
@@ -553,7 +551,7 @@ When reporting issues, please include:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**.
 
 ### MIT License Summary
 - ✅ Commercial use allowed
@@ -573,10 +571,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📞 Support & Contact
 
-- **📧 Email**: support@invoiscope.com
-- **🐛 Issues**: [GitHub Issues](https://github.com/yourusername/invoiscope/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/yourusername/invoiscope/discussions)
-- **📖 Documentation**: [Wiki](https://github.com/yourusername/invoiscope/wiki)
+- **📧 Email**: naman2634@gmail.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/ayush2635/Invoiscope/issues)
+- **💬 Discussions**: [GitHub Discussions](https://github.com/ayush2635/Invoiscope/discussions)
+- **📖 Documentation**: [Wiki](https://github.com/ayush2635/Invoiscope/wiki)
+
 
 ---
 
