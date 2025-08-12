@@ -1,0 +1,2 @@
+# This file ensures the uploads directory is tracked by git
+# Uploaded invoice images will be stored here during processing
