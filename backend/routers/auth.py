@@ -11,7 +11,9 @@ from .. import crud, schemas, models
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
-SECRET_KEY = "INVOISCOPE_SUPER_SECRET_KEY_FOR_LOCAL_DEVELOPMENT"
+import os
+
+SECRET_KEY = os.getenv("SECRET_KEY", "INVOISCOPE_SUPER_SECRET_KEY_FOR_LOCAL_DEVELOPMENT")
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60 * 24 * 7  # 7 days
 
